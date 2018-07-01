@@ -27,9 +27,7 @@ public class QuizActivity extends AppCompatActivity {
     private static final int NUM_CORRECT_MULTIPLE_CHOICES = 3;
     private static final int INT_SIZE = 32;
     private static final int NUM_QUESTIONS = 5;
-
     private EditText editTextInput;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,38 +74,5 @@ public class QuizActivity extends AppCompatActivity {
         }
 
         Toast.makeText(this, "You answered " + correct + " out of " + NUM_QUESTIONS + " correctly.", Toast.LENGTH_SHORT).show();
-
-    }
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//        builder.setTitle(getString(R.string.quit_app_title));
-//        builder.setMessage(getString(R.string.quit_app_messsage));
-//        builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialogInterface, int i) {
-//                dialogInterface.dismiss();
-//            }
-//        });
-//
-//        builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialogInterface, int i) {
-//                dialogInterface.dismiss();
-//                exitApp();
-//            }
-//        });
-//        AlertDialog alertDialog = builder.create();
-//        alertDialog.show();
-    }
-
-    private void exitApp() {
-
-        Intent intent = new Intent(Intent.ACTION_MAIN);
-        intent.addCategory(Intent.CATEGORY_HOME);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
-        finish();
     }
 }

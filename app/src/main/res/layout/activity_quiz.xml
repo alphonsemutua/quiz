@@ -18,7 +18,6 @@
         android:paddingRight="@dimen/margin12"
         android:paddingStart="@dimen/margin12"
         android:paddingTop="@dimen/margin72"
-
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
