@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Java Quiz</string>
+    <string name="submit">Submit</string>
+    <string name="quiz1">What of the following is the default value of an instance variable?</string>
+    <string name="null_choice">Null</string>
+    <string name="depends_on_the_type_of_variable">Depends on the type of variable</string>
+    <string name="_0">0</string>
+    <string name="quiz2">What is the size of an int variable?</string>
+    <string name="bit">bit</string>
+
+    <string name="quiz3">What is an instant variable?</string>
+    <string name="quiz3_choice1">A static varable within a class but outside any method</string>
+    <string name="quiz3_choice2">Variables defined inside methods, constructors or blocks</string>
+    <string name="quiz3_choice3">Variables within a class but outside a method</string>
+
+    <string name="quiz4">What happens when a thread\'s sleep() method is called?</string>
+    <string name="quiz4_choice1">Thread returns to ready state</string>
+    <string name="quiz4_choice2">Thread returns to waiting state</string>
+    <string name="quiz4_choice3">Thread starts running</string>
+
+    <string name="quiz5">Which of the following is a valid identifier with Java\'s main method? check all that apply</string>
+    <string name="quiz5_choice1">Public</string>
+    <string name="quiz5_choice2">Static</string>
+    <string name="quiz5_choice3">Private</string>
+    <string name="quiz5_choice4">Final</string>
+    <string name="hint">size</string>
+    <string name="logo">logo</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="tech">Tech</string>
+    <string name="quiz">Quiz</string>
+    <string name="quit_app_title">Quit Tech Quiz</string>
+    <string name="quit_app_messsage">Are you sure you want to exit app?</string>
+    <string name="java">Java</string>
+</resources>
